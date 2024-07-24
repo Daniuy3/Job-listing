@@ -5,4 +5,5 @@ I used typescript and react, with two libraries, uuiv4 to add uniques id to each
 The link is:
 
 -- (https://aesthetic-florentine-ebc0f0.netlify.app/)
-./PREVIEW.jpg
+
+C:\Users\daniu\OneDrive\Documents\Udemy\React\Job-listings\PREVIEW.jpg
