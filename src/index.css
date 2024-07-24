@@ -1,0 +1,17 @@
+:root{
+    --LightGrayishCyanBackground:hsl(180,52%,96%);
+    --LightGrayishCyanFilter:hsl(180,31%,95%);
+    --DarkGrayishCyan: hsl(180,8%,52%);
+    --VeryDarkGrayishCyan: hsl(180,14%, 20%);
+    --main: hsl(180,39%,56%);
+}
+
+body{
+    background-color: var(--LightGrayishCyanBackground);
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

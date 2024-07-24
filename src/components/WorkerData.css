@@ -1,0 +1,132 @@
+
+
+.worker{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    width: 90%;
+    margin: 0 auto;
+
+    position: relative;
+
+    padding: 40px 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+
+    border-left: 5px solid var(--main);
+
+    @media (min-width: 768px) { 
+        width: 80%;
+        position: initial;
+        flex-direction: row;
+        align-items: center;
+        padding: 40px;
+    }
+}
+.worker__logo{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+
+    & img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    @media (min-width: 768px) { 
+        position: initial;
+        width: 100px;
+        height: 100px;
+    }
+}
+.worker__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--DarkGrayishCyan);
+
+    @media (min-width: 768px) { 
+        flex-direction: row;
+        border-bottom: none;
+        gap: 20px;
+    }
+}
+.worker__features-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+    padding-bottom: 20px;
+
+    @media (min-width: 768px) { 
+        align-items: flex-start;
+    }    
+}
+.worker__features{
+    display: flex;
+    gap: 30px;
+    color: var(--main);
+    font-weight: 700;
+    align-items: center;
+}
+.new{
+    background-color: var(--main);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.featured{
+    background-color: var(--VeryDarkGrayishCyan);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.worker__meta{
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+    color: var(--DarkGrayishCyan);
+    font-weight: 400;
+}
+.worker__position{
+    padding-top: 1px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: color 0.3s;
+    &:hover{
+        cursor: pointer;
+        color: var(--main);
+    }
+}
+.skills{
+    
+    display: flex;
+    gap: 10px;
+    
+    margin: 20px auto 0 auto;
+
+    & p{
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: var(--main);
+        font-weight: 600;
+        background-color: var(--LightGrayishCyanFilter);
+
+        transition: color 0.3s, background-color 0.5s;
+        &:hover{
+            cursor: pointer;
+            color: white;
+            background-color: var(--main);
+        }
+    }
+}
