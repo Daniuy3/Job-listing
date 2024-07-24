@@ -6,4 +6,4 @@ The link is:
 
 -- (https://aesthetic-florentine-ebc0f0.netlify.app/)
 
-C:\Users\daniu\OneDrive\Documents\Udemy\React\Job-listings\PREVIEW.jpg
+![Preview IMG](PREVIEW.jpg)
